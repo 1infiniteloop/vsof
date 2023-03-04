@@ -492,10 +492,10 @@ const Background = () => {
 
 export default function Index() {
 	return (
-		<div className="relative isolate overflow-hidden bg-white w-full h-full">
+		<div className="relative isolate bg-white w-full h-full">
 			<Background />
 			<TopNav />
-			<div className="flex flex-col h-full justify-center lg:-mt-[60px]">
+			<div className="flex flex-col h-full p-5 lg:justify-center lg:-mt-[60px]">
 				<Content />
 			</div>
 		</div>
