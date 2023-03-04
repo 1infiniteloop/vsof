@@ -495,7 +495,7 @@ export default function Index() {
 		<div className="relative isolate overflow-hidden bg-white w-full h-full">
 			<Background />
 			<TopNav />
-			<div className="flex flex-col h-full justify-center -mt-[60px]">
+			<div className="flex flex-col h-full justify-center lg:-mt-[60px]">
 				<Content />
 			</div>
 		</div>

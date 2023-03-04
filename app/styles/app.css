@@ -675,6 +675,10 @@ video {
   width: 200px;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -683,20 +687,8 @@ video {
   width: 80%;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .max-w-7xl {
@@ -1258,12 +1250,8 @@ body {
     margin-right: 10rem;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
-  .lg\:hidden {
-    display: none;
+  .lg\:-mt-\[60px\] {
+    margin-top: -60px;
   }
 
   .lg\:max-w-5xl {
