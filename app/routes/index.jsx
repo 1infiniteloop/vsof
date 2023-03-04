@@ -423,15 +423,19 @@ const Example = () => {
 		<div className="flex flex-col w-full items-center">
 			<div className="max-w-xl flex flex-col lg:max-w-5xl mb-20">
 				<p className="text-base font-semibold leading-7 text-indigo-600">
-					Deploy faster
+					Vocational science of freedom
 				</p>
 				<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-					A better workflow
+					Mission statement
 				</h1>
 				<p className="mt-6 text-xl leading-8 text-gray-700">
-					Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-					sem. At arcu, sit dui mi, nibh dui, diam eget aliquam.
-					Quisque id at vitae feugiat egestas.
+					To perpetuate and grow a community of free sovereign people
+					that create, learn and teach a complete and innovative
+					curriculum of American civics coupled with autodidactic
+					learning, in the quadrants of Self-Awareness,
+					Self-Government, Self-Defense, and Self-Reliance, for the
+					betterment, freedom and perpetual sovereignty of we the
+					American people.
 				</p>
 			</div>
 
