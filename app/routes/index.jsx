@@ -3,6 +3,7 @@ import { useEventListener } from "usehooks-ts";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+const logo_img = "/images/guilded_image_5a84fcbe66394adf3306e7490372c466.png";
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
@@ -250,16 +251,7 @@ const TopNav = () => {
 							</div>
 							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 								<div className="flex flex-shrink-0 items-center">
-									<img
-										className="block h-8 w-auto lg:hidden"
-										src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-										alt="Your Company"
-									/>
-									<img
-										className="hidden h-8 w-auto lg:block"
-										src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-										alt="Your Company"
-									/>
+									<img src={logo_img} className="w-[40px]" />
 								</div>
 								<div className="hidden sm:ml-6 sm:flex sm:space-x-8">
 									{/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
@@ -418,7 +410,7 @@ const TopNav = () => {
 	);
 };
 
-const Example = () => {
+const Content = () => {
 	return (
 		<div className="flex flex-col w-full items-center">
 			<div className="max-w-xl flex flex-col lg:max-w-5xl mb-20">
@@ -504,7 +496,7 @@ export default function Index() {
 			<Background />
 			<TopNav />
 			<div className="flex flex-col h-full justify-center -mt-[60px]">
-				<Example />
+				<Content />
 			</div>
 		</div>
 	);
